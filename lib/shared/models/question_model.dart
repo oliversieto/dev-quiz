@@ -1,10 +1,10 @@
 import 'package:DevQuiz/shared/models/answer_model.dart';
 
-class QuestinModel {
+class QuestionModel {
   final String title;
   final List<AnswerModel> answers;
 
-  QuestinModel({
+  QuestionModel({
     required this.title,
     required this.answers,
   }) : assert(answers.length == 4);
